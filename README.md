@@ -1,4 +1,4 @@
-# PartyZone | Salones de Eventos & Banquetes de Gala
+# Banquetes Hub| Salones de Eventos & Banquetes de Gala
 
 Plataforma web integral para la cadena de salones de eventos **PartyZone**, desarrollada con una arquitectura desacoplada de alto rendimiento y diseño cálido y elegante (*Warm & Elegant*).
 
@@ -29,7 +29,7 @@ Plataforma web integral para la cadena de salones de eventos **PartyZone**, desa
 
 ```
                                   ┌──────────────────────────┐
-                                  │   PartyZone Frontend     │
+                                  │   Banquetes HubFrontend     │
                                   │ (Polymer 2 + Neon + Zod) │
                                   └─────────────┬────────────┘
                                                 │
@@ -81,7 +81,7 @@ Plataforma web integral para la cadena de salones de eventos **PartyZone**, desa
 | Tabla | Columnas Principales | Descripción / Restricciones |
 |---|---|---|
 | `users` | `id`, `username`, `password_hash`, `role`, `is_active`, `created_at` | Cuentas de administradores con contraseñas hasheadas. |
-| `branches` | `id`, `name`, `capacity`, `base_price_mxn`, `image_url`, `description`, `address`, `is_active` | Sucursales PartyZone (Cumbres, San Jerónimo, Valle Real, Linda Vista). |
+| `branches` | `id`, `name`, `capacity`, `base_price_mxn`, `image_url`, `description`, `address`, `is_active` | Sucursales Banquetes Hub(Cumbres, San Jerónimo, Valle Real, Linda Vista). |
 | `services` | `id`, `name`, `price_mxn`, `category`, `description`, `is_active` | Catálogo de servicios adicionales (Banquete, DJ, Barra Libre, etc.). |
 | `bookings` | `id`, `booking_folio`, `customer_name`, `customer_email`, `customer_phone`, `branch_id`, `event_date`, `time_slot`, `total_mxn`, `card_last_four`, `status`, `created_at`, `is_active` | Reservas oficiales. Restricción `UNIQUE(branch_id, event_date, time_slot)`. |
 | `booking_services` | `id`, `booking_id`, `service_id`, `unit_price_mxn`, `is_active` | Relación N:M con snapshot de precio al momento de la reserva. |
