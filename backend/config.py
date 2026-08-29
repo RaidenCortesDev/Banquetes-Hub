@@ -6,8 +6,8 @@ load_dotenv()
 
 class Config:
     """Configuración centralizada para la aplicación Flask y conexión a PostgreSQL."""
-    SECRET_KEY = os.getenv('SECRET_KEY', 'banquetes_hub_super_secret_production_key_2026')
-    
+    SECRET_KEY = os.getenv('SECRET_KEY', 'banquetes_hub_fallback_secret_key_2026')
+
     # 1. Intentar obtener URL completa (para producción/Supabase)
     db_url = os.getenv('DATABASE_URL')
 
