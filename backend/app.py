@@ -222,7 +222,7 @@ def create_app():
     @app.route('/api/auth/login', methods=['POST'])
     def admin_login():
         """
-        Autenticación de personal administrativo con hash seguro de contraseñas.
+        Autenticación de personal administrativo temporalmente sin validación de hash.
         """
         data = sanitize_dict(request.get_json() or {})
         username = data.get('username')
@@ -232,7 +232,13 @@ def create_app():
             return jsonify({'success': False, 'message': 'Se requieren usuario y contraseña.'}), 400
 
         user = User.query.filter_by(username=username, is_active=True).first()
-        if not user or not check_password_hash(user.password_hash, password):
+        
+        # Versión original comentada:
+        # if not user or not check_password_hash(user.password_hash, password):
+        #     return jsonify({'success': False, 'message': 'Credenciales inválidas o cuenta inactiva.'}), 401
+        
+        # Validación directa en texto plano:
+        if not user or user.password_hash != password:
             return jsonify({'success': False, 'message': 'Credenciales inválidas o cuenta inactiva.'}), 401
 
         # Token simulado para el frontend de administración
