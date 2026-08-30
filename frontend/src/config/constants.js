@@ -17,7 +17,7 @@ export const BRAND_TEXTS = {
   TAGLINE: 'Salones de Eventos & Banquetes de Gala',
   HEADER_TITLE: 'Banquetes Hub | Salones de Eventos',
   HERO_TITLE: 'Momentos Inolvidables en el Salón Perfecto',
-  HERO_SUBTITLE: 'Descubre nuestras 4 exclusivas sucursales diseñadas para bodas, XV años, aniversarios y eventos corporativos con la más alta distinción.',
+  HERO_SUBTITLE: 'Descubre nuestras 6 exclusivas sucursales diseñadas para bodas, XV años, aniversarios y eventos corporativos con la más alta distinción.',
   CONFIRMATION_TEMPLATE: (folio) => `Estamos confirmando tu reservación. Tu folio de seguimiento es ${folio}. Nos pondremos en contacto mediante correo`
 };
 

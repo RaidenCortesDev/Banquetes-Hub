@@ -189,13 +189,16 @@ export class PartyZoneApp extends PolymerElement {
             <h3>Banquetes Hub</h3>
             <p>La cadena de salones de banquetes y eventos más distinguida, con cobertura en Cumbres, San Jerónimo, Valle Real y Linda Vista.</p>
           </div>
-          <div class="footer-col">
+<div class="footer-col">
             <h4>Nuestras Sucursales</h4>
             <ul>
               <li>• Banquetes Hub Cumbres</li>
               <li>• Banquetes Hub San Jerónimo</li>
               <li>• Banquetes Hub Valle Real</li>
               <li>• Banquetes Hub Linda Vista</li>
+              <li>• Hacienda San José de las Palmas</li>
+              <li>• Jardín y Salón Vista Hermosa</li>
+              <li>• Quinta Real del Bosque</li>
             </ul>
           </div>
           <div class="footer-col">
@@ -205,6 +208,9 @@ export class PartyZoneApp extends PolymerElement {
               <li>• Audio & DJ Profesional</li>
               <li>• Barra Libre Premium</li>
               <li>• Cabinas 360° & Fotografía</li>
+              <li>• Mariachi en Vivo</li>
+              <li>• Mesa de Snacks y Salados</li>
+              <li>• Pirotecnia en Frío</li>
             </ul>
           </div>
           <div class="footer-col">

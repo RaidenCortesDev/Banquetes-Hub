@@ -559,7 +559,7 @@ export class PartyZoneAdmin extends PolymerElement {
       <div class="admin-header">
         <div class="admin-title-group">
           <h1>Panel de Control & Bitácora</h1>
-          <p>Gestión de reservas en tiempo real registradas en PostgreSQL (Soporte de Baja Lógica).</p>
+          <p>Gestión de reservas registradas .</p>
         </div>
 
         <div class="admin-actions-bar">

@@ -137,7 +137,7 @@ export class PartyZoneLogin extends PolymerElement {
       <div class="login-card">
         <div class="login-icon">🔒</div>
         <h2 class="login-title">Acceso Administrativo</h2>
-        <p class="login-subtitle">Gestión de Reservas y Bitácora PostgreSQL</p>
+        <p class="login-subtitle">Gestión de Reservas y Bitácora</p>
 
         <template is="dom-if" if="[[errorMessage]]">
           <div class="alert-error">

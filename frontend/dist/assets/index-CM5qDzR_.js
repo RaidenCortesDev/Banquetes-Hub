@@ -1180,7 +1180,7 @@ found at http://polymer.github.io/PATENTS.txt
           <span class="hero-badge">Excelencia & Tradición en Eventos</span>
           <h1 class="hero-title">Momentos Inolvidables en el Salón Perfecto</h1>
           <p class="hero-subtitle">
-            Descubre nuestras 4 exclusivas sucursales diseñadas para bodas de ensueño, XV años mágicos, aniversarios de gala y eventos corporativos con la más alta distinción.
+            Descubre nuestras 6 exclusivas sucursales diseñadas para bodas de ensueño, XV años mágicos, aniversarios de gala y eventos corporativos con la más alta distinción.
           </p>
           <div class="hero-actions">
             <button class="btn-hero-primary" on-click="_scrollToBranches">
@@ -1231,7 +1231,7 @@ found at http://polymer.github.io/PATENTS.txt
       <section id="branches" class="branches-section">
         <div class="section-header">
           <span class="section-tag">Nuestras Sedes Exclusivas</span>
-          <h2 class="section-title">4 Sucursales Diseñadas para Celebrar</h2>
+          <h2 class="section-title">6 Sucursales Diseñadas para Celebrar</h2>
           <p class="section-desc">
             Cada salón ofrece un concepto arquitectónico único, estacionamiento privado, suite nupcial y la mejor acústica de la ciudad.
           </p>
@@ -2567,7 +2567,7 @@ found at http://polymer.github.io/PATENTS.txt
       <div class="login-card">
         <div class="login-icon">🔒</div>
         <h2 class="login-title">Acceso Administrativo</h2>
-        <p class="login-subtitle">Gestión de Reservas y Bitácora PostgreSQL</p>
+        <p class="login-subtitle">Gestión de Reservas y Bitácora</p>
 
         <template is="dom-if" if="[[errorMessage]]">
           <div class="alert-error">
@@ -3147,7 +3147,7 @@ found at http://polymer.github.io/PATENTS.txt
       <div class="admin-header">
         <div class="admin-title-group">
           <h1>Panel de Control & Bitácora</h1>
-          <p>Gestión de reservas en tiempo real registradas en PostgreSQL (Soporte de Baja Lógica).</p>
+          <p>Gestión de reservas registradas .</p>
         </div>
 
         <div class="admin-actions-bar">
@@ -3516,13 +3516,16 @@ found at http://polymer.github.io/PATENTS.txt
             <h3>Banquetes Hub</h3>
             <p>La cadena de salones de banquetes y eventos más distinguida, con cobertura en Cumbres, San Jerónimo, Valle Real y Linda Vista.</p>
           </div>
-          <div class="footer-col">
+<div class="footer-col">
             <h4>Nuestras Sucursales</h4>
             <ul>
               <li>• Banquetes Hub Cumbres</li>
               <li>• Banquetes Hub San Jerónimo</li>
               <li>• Banquetes Hub Valle Real</li>
               <li>• Banquetes Hub Linda Vista</li>
+              <li>• Hacienda San José de las Palmas</li>
+              <li>• Jardín y Salón Vista Hermosa</li>
+              <li>• Quinta Real del Bosque</li>
             </ul>
           </div>
           <div class="footer-col">
@@ -3532,6 +3535,9 @@ found at http://polymer.github.io/PATENTS.txt
               <li>• Audio & DJ Profesional</li>
               <li>• Barra Libre Premium</li>
               <li>• Cabinas 360° & Fotografía</li>
+              <li>• Mariachi en Vivo</li>
+              <li>• Mesa de Snacks y Salados</li>
+              <li>• Pirotecnia en Frío</li>
             </ul>
           </div>
           <div class="footer-col">

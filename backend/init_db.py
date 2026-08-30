@@ -65,7 +65,7 @@ def seed_initial_data():
         db.session.add(admin_user)
         print("[OK] Usuario administrador 'admin' creado (password: admin123).")
 
-        # 2. Las 4 Sucursales Principales de PartyZone
+        # 2. Las 6 Sucursales Principales de PartyZone
         branches_data = [
             {
                 'name': 'PartyZone Cumbres',

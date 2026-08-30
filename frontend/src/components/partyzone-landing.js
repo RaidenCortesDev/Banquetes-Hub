@@ -4,7 +4,7 @@ import { BRAND_TEXTS, ASSET_PATHS, formatMXN } from '../config/constants.js';
 
 /**
  * Componente Landing Page One-Page para PartyZone.
- * Muestra el Hero banner, las 4 sucursales principales con botón único de cotización y paquetes.
+ * Muestra el Hero banner, las 6 Sucursales principales con botón único de cotización y paquetes.
  * @customElement
  * @polymer
  */
@@ -421,7 +421,7 @@ export class PartyZoneLanding extends PolymerElement {
           <span class="hero-badge">Excelencia & Tradición en Eventos</span>
           <h1 class="hero-title">Momentos Inolvidables en el Salón Perfecto</h1>
           <p class="hero-subtitle">
-            Descubre nuestras 4 exclusivas sucursales diseñadas para bodas de ensueño, XV años mágicos, aniversarios de gala y eventos corporativos con la más alta distinción.
+            Descubre nuestras 6 exclusivas sucursales diseñadas para bodas de ensueño, XV años mágicos, aniversarios de gala y eventos corporativos con la más alta distinción.
           </p>
           <div class="hero-actions">
             <button class="btn-hero-primary" on-click="_scrollToBranches">
@@ -472,7 +472,7 @@ export class PartyZoneLanding extends PolymerElement {
       <section id="branches" class="branches-section">
         <div class="section-header">
           <span class="section-tag">Nuestras Sedes Exclusivas</span>
-          <h2 class="section-title">4 Sucursales Diseñadas para Celebrar</h2>
+          <h2 class="section-title">6 Sucursales Diseñadas para Celebrar</h2>
           <p class="section-desc">
             Cada salón ofrece un concepto arquitectónico único, estacionamiento privado, suite nupcial y la mejor acústica de la ciudad.
           </p>

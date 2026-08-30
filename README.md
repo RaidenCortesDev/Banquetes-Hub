@@ -39,7 +39,7 @@ Plataforma web integral para la cadena de salones de eventos **PartyZone**, desa
         │       Perfil Cliente        │                   │    Perfil Administración    │
         │      (100% Público)         │                   │      (Privado / Login)      │
         ├─────────────────────────────┤                   ├─────────────────────────────┤
-        │ • Landing 4 Sucursales      │                   │ • Login con hash seguro     │
+        │ • Landing 6 Sucursales      │                   │ • Login con hash seguro     │
         │ • Cotizador interactivo     │                   │ • Bitácora completa de BD   │
         │ • Verificación tiempo real  │                   │ • Modal desglose servicios  │
         │ • Folio Único PZ-YYYY-XXXX  │                   │ • Baja Lógica (Soft Delete) │
@@ -61,7 +61,7 @@ Plataforma web integral para la cadena de salones de eventos **PartyZone**, desa
 ```
 
 ### A) Perfil Cliente (Público, sin Login)
-1. **Landing One-Page:** Presentación de las 4 sucursales principales con botón único y centrado ("Cotizar Sucursal").
+1. **Landing One-Page:** Presentación de las 6 Sucursales principales con botón único y centrado ("Cotizar Sucursal").
 2. **Flujo de Reserva:** Selector dinámico de sucursal, fecha de evento, turno (`Matutino`, `Vespertino`, `Nocturno`) y servicios adicionales seleccionables con cálculo en tiempo real.
 3. **Verificación de Disponibilidad:** Validación en backend para evitar empalmes en la misma terna `(branch_id, event_date, time_slot)`.
 4. **Generación de Folio Único:** Formato `PZ-2026-XXXX`.
