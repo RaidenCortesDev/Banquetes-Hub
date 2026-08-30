@@ -21,11 +21,11 @@ class Config:
         
         db_url = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
-   # Corregir prefijo por si el proveedor de nube envía "postgres://" en vez de "postgresql://"
+# Corregir prefijo por si el proveedor de nube envía "postgres://" en vez de "postgresql://"
     if db_url.startswith("postgres://"):
         db_url = db_url.replace("postgres://", "postgresql://", 1)
 
-    # ASEGURAR SSL PARA PRODUCCIÓN (SUPABASE)
+    # Forzar sslmode=require si es una base de datos externa como Supabase y no lo trae
     if "supabase.co" in db_url and "sslmode" not in db_url:
         separator = "&" if "?" in db_url else "?"
         db_url = f"{db_url}{separator}sslmode=require"
